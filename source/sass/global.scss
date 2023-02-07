@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #000000;
+  color: #fff;
+  padding: 36px 80px 67px;
+  margin: 0;
+
+  @media (max-width: $max-tablet-width) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (max-width: $max-mobile-width) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
