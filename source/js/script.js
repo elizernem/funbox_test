@@ -45,11 +45,11 @@ const makeDisabled = (control, label) => {
 for (let i = 0; i < itemEl.length; i++) {
   itemEl[i].addEventListener("mouseover", function () {
     if (inputEl[i].checked) {
-      decorationEl[i].style.borderColor = "#E52E7A";
-      wrapperEl[i].style.borderColor = "#E52E7A";
-      countEl[i].style.backgroundColor = "#E52E7A";
+      decorationEl[i].style.borderColor = "#e52e7a";
+      wrapperEl[i].style.borderColor = "#e52e7a";
+      countEl[i].style.backgroundColor = "#e52e7a";
       previewEl[i].textContent = "Котэ не одобряет?";
-      previewEl[i].style.color = "#E62E7A";
+      previewEl[i].style.color = "#e52e7a";
     } else if (inputEl[i].disabled === false) {
       inputEl[i].checked = false;
       decorationEl[i].style.borderColor = "#2ea8e6";
